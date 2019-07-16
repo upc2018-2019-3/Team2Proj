@@ -1,0 +1,44 @@
+/* pages/adminpage/adminpage.wxss */
+.form{
+  width: 310px;
+  height: 240px;
+  line-height: 40px;
+  /* border: 1px solid red;  */
+}
+.header{
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px auto;
+  margin-top: 10px;
+
+}
+
+.itemtitle{
+  margin-top: 25px;
+}
+
+.admininput{
+  border: 1px solid #666;
+  width: 310px;
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.checkbutton{
+  margin-top: 20px;
+}
+
+.queryresult{
+  width: 80%;
+  margin: 10px auto;
+}
+
+.queryresult .result{
+  text-align: center;
+  font-size: 15px;
+  color: #666;
+}
+
+

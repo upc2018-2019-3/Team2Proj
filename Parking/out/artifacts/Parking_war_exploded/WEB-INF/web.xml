@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>carSelectServlet</servlet-name>
+        <servlet-class>servlet.carSelectServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>carSelectServlet</servlet-name>
+        <url-pattern>/carselect</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>carInsertServlet</servlet-name>
+        <servlet-class>servlet.carInsertServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>carInsertServlet</servlet-name>
+        <url-pattern>/carinsert</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>carDeleteServlet</servlet-name>
+        <servlet-class>servlet.carDeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>carDeleteServlet</servlet-name>
+        <url-pattern>/cardelete</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>logInsertServlet</servlet-name>
+        <servlet-class>servlet.logInsertServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>logInsertServlet</servlet-name>
+        <url-pattern>/loginsert</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>adminLoginServlet</servlet-name>
+        <servlet-class>servlet.adminLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>adminLoginServlet</servlet-name>
+        <url-pattern>/admincheck</url-pattern>
+    </servlet-mapping>
+   <servlet>
+        <servlet-name>logSelectServlet</servlet-name>
+        <servlet-class>servlet.logSelectServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+
+        <servlet-name>logSelectServlet</servlet-name>
+        <url-pattern>/logselect</url-pattern>
+    </servlet-mapping>
+</web-app>

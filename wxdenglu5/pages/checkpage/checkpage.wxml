@@ -1,0 +1,11 @@
+<!--pages/checkpage/checkpage.wxml-->
+<view class='checkmsg'>
+  <form>
+    <view><text>编号：{{Carid}}</text></view>
+    <view><text>车牌号：{{Carnumber}}</text></view>
+    <view><text>进场时间：{{Starttime}}</text></view>
+    <view><text>出场时间：{{Endtime}}</text></view>
+    <view><text>停车时长：{{Duratime}}小时</text></view>
+    <view><text>费用：{{Consume}}元</text></view>
+  </form>
+</view>

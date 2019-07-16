@@ -1,0 +1,6 @@
+/* pages/checkpage/checkpage.wxss */
+
+.checkmsg{
+  margin-left: 10px;
+  margin-top: 15px;
+}

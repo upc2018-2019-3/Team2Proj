@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<view class="root">
+  <image src='../image/timg.jpg' mode="aspectFill"></image>
+  <form bindsubmit='formSubmit'> 
+  <view>
+   <view class="content">
+   </view>
+    <radio-group name="status" bindchange="radioChange" class="radiovertical">
+    <view class="radioitem">
+     
+      <radio checked='true' value='车主'>车主</radio>
+     
+    </view>
+    <view class="radioitem">
+     
+      <radio value='管理员'>管理员</radio>
+   
+    </view>
+   </radio-group>
+  </view>
+  <view class='inputstyle' hidden="{{user_radioCheckValue==1?false:true}}">
+  车牌号： <input class='dengluInput' name="carNumber" type='text' placeholder='请输入您的车牌号'></input>
+  </view>
+  <view class='inputstyle' hidden="{{adm_radioCheckValue==0?true:false}}">
+  账号： <input class='dengluInput' name="adminName" type='text' placeholder='请输入账号' color='black'></input>
+  密码：<input class='dengluInput' name="adminPsw" type='text' password='true' placeholder='请输入密码'></input>
+  </view>
+  <view class='loginButton'>
+    <button type='primary' form-type='submit'>登录</button>
+  </view>
+  </form>
+</view>

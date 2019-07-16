@@ -1,0 +1,21 @@
+<!--pages/adminpage/adminpage.wxml-->
+<view class='container'>
+  <view class='header'>
+    <text>欢迎使用xx停车场管理系统</text>
+  </view>
+
+  <form bindsubmit='formsubmit3'>
+    <view class='itemtitle'>
+      <text>停车记录查询</text>
+    </view>
+
+    <view>
+      <input class='admininput' name='carnumber' type='text' placeholder='请输入查询车牌号'></input>
+    </view>
+
+    <view class='checkbutton'>
+      <button type='primary' form-type='submit'>查询</button>
+    </view>
+  </form>
+
+</view>

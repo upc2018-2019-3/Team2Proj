@@ -1,0 +1,23 @@
+<view class="container">
+  <view class='header'>
+    <text>欢迎使用xx停车场管理系统</text>
+  </view>
+  <form bindsubmit='formSubmit2'>
+    <view class='parkinfo'>
+      <text>当前停车费用：{{parkfee}}元</text>
+      
+    </view>
+    <view class='parkinfo'>
+      <text>当前停车时间：{{parktime}}小时</text>
+      
+    </view>
+    <view class='paybutton'>
+      <button type='primary' form-type='submit' bindtap='payfee'>结算</button>
+    </view>
+  </form>
+  <view class='payrule'>
+    <text>计费准则：5元/小时</text>
+    <text>不足一小时部分按一小时计费</text>
+  </view>
+  
+</view>
